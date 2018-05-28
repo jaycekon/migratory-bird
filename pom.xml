@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.2.RELEASE</version>
+    </parent>
+    <packaging>pom</packaging>
+    <groupId>com.jaycekon</groupId>
+    <artifactId>migratory-bird</artifactId>
+    <version>1.0.0</version>
+    <name>migratory-bird parent</name>
+    <description>候鸟计划</description>
+
+    <modules>
+        <module>migratory-bird-api</module>
+        <module>migratory-bird-repository</module>
+    </modules>
+
+    <properties>
+        <jackson2.version>2.8.8</jackson2.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--maven properties -->
+        <maven.test.skip>true</maven.test.skip>
+        <downloadSources>true</downloadSources>
+        <!-- compiler settings properties -->
+        <java_source_version>1.8</java_source_version>
+        <java_target_version>1.8</java_target_version>
+        <file_encoding>UTF-8</file_encoding>
+        <tk.mybatis.version>1.1.3</tk.mybatis.version>
+        <aspectjweaver.version>1.8.2</aspectjweaver.version>
+
+    </properties>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

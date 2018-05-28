@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/migratory-bird.iml" filepath="$PROJECT_DIR$/migratory-bird.iml" />
+      <module fileurl="file://$PROJECT_DIR$/migratory-bird-api/migratory-bird-api.iml" filepath="$PROJECT_DIR$/migratory-bird-api/migratory-bird-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/migratory-bird-repository/migratory-bird-repository.iml" filepath="$PROJECT_DIR$/migratory-bird-repository/migratory-bird-repository.iml" />
+    </modules>
+  </component>
+</project>
